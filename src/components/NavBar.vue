@@ -21,6 +21,7 @@
       </router-link>
       <router-link  class="nav-list-item" to="cart">
         <i><van-icon  name="shopping-cart-o" :badge="!cart.count ? '' : cart.count" /></i>
+        <!-- <i><van-icon  name="shopping-cart-o" :badge="123" /></i> -->
         <span>购物车</span>
       </router-link>
       <router-link  class="nav-list-item" to="user">
@@ -53,8 +54,9 @@ onMounted(() => {
       position: fixed;
       left: 0;
       bottom: 0;
-      width: 100%;
-      padding: 5px 0;
+      // width: 100%;
+      right: 0;
+      padding: 10px 0;
       z-index: 1000;
       background: #fff;
       transform: translateZ(0);
@@ -74,7 +76,6 @@ onMounted(() => {
             color: @primary;
           }
           i {
-            text-align: center;
             font-size: 22px;
           }
           span{

@@ -63,7 +63,7 @@
       <div class="title">购物车空空如也</div>
       <van-button round color="#1baeae" type="primary" @click="goTo" block>前往选购</van-button>
     </div>
-    <nav-bar></nav-bar>
+    <!-- <nav-bar></nav-bar> -->
   </div>
 </template>
 

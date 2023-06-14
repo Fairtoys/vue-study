@@ -41,7 +41,7 @@
         <van-icon name="arrow" />
       </li>
     </ul>
-    <nav-bar></nav-bar>
+    <!-- <nav-bar></nav-bar> -->
   </div>
 </template>
 
