@@ -22,8 +22,8 @@
         <van-icon name="manager-o" />
       </router-link>
     </header>
-    <!-- <nav-bar /> -->
-    <tab-bar />
+    <nav-bar />
+    <!-- <tab-bar /> -->
     <swiper :list="state.swiperList"></swiper>
     <swiper2 :list="state.swiperList"></swiper2>
     <div class="category-list">

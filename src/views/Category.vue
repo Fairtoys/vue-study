@@ -19,7 +19,7 @@
         </div>
         <i class="iconfont icon-More"></i>
       </header>
-      <!-- <nav-bar></nav-bar> -->
+      <nav-bar></nav-bar>
       <div class="search-wrap" ref="searchWrap">
         <list-scroll :scroll-data="state.categoryData" class="nav-side-wrapper">
           <ul class="nav-side">
